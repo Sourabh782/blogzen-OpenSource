@@ -1,0 +1,25 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#myBtn {
+    display: none; 
+    position: fixed; 
+    bottom: 90px; 
+    right: 20px;
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color: #208FF4;
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+  }
+  
+  #myBtn:hover {
+    background-color: transparent;
+    color: #208FF4; 
+    border: 1px solid #208FF4;
+  }

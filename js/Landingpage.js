@@ -132,7 +132,8 @@ function td_fun(item) {
   div.className = "mainContainer";
   div.innerHTML = `
     <div class="box1" key="item.id">
-      <img src=${item.imageurl} alt="" />
+      <a href="../blog.html?id=${item.id}"><img class="contentImg" src=${item.imageurl} alt="" /></a>
+      
       <div class="boxtext">
         <div class="boxdiv">${item.tags}</div>
         <a href="../blog.html?id=${item.id}"><h1>${item.title}</h1></a>

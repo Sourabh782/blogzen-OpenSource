@@ -39,7 +39,7 @@
     transition: all 0.3s ease-in-out;
 }
 
-.box1>img {
+.contentImg {
     height: 12rem;
     width: 20rem;
     margin: 20px 0;
